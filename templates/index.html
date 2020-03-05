@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Artifact Classification</title>
+  </head>
+   <body style = "background: url(https://cdn.hipwallpaper.com/i/44/35/S2QCP9.jpg)">
+    <style>
+    .centereddiv{
+     position: absolute;
+     width: 500px;
+     height: 300px;
+     top: 50%;
+     left: 50%;
+     margin-left: -250px;
+     margin-top: -150px;
+
+    }
+    </style>
+
+    <style>
+    .bottomdiv{
+     position: absolute;
+     width: 500px;
+     height: 50px;
+     top: 100%;
+     left: 0%;
+     margin-left: -100x;
+     margin-top: -700px;
+    }
+    </style>
+
+    <form action = "http://localhost:4000/result" method="POST">
+    <div class ="bottomdiv">
+    <label for="image_url"><p><font color="white" size ="5">
+     Some Test URLs below<br>
+     Greece:<br>
+     http://tiny.cc/fjntkz<br>
+     http://tiny.cc/vjntkz<br>
+     http://tiny.cc/kkntkz<br><br>
+     Renaissance:<br>
+     http://tiny.cc/vkntkz<br>
+     http://tiny.cc/6kntkz<br>
+     http://tiny.cc/flntkz
+     </div>
+    </font></p></label>
+    <div class ="centereddiv">
+    <center><label for="image_url"><p><font color="white" size ="16">IMAGE URL HERE:</font></p></label></center>
+    <center><input type="url" id="image_url" name="image_url" size="50"><br><br></center>
+     <center><input type="submit">></center>
+   </div>
+  </form>
+
+  </body>
+</html>
